@@ -13,7 +13,7 @@ def countDayOfTheWeek():
             if line[2] in fromDict:
                 fromDict[line[2]] += 1
             else:
-                fromDict[line[1]] = 1
+                fromDict[line[2]] = 1
     print(fromDict)
 
 
@@ -23,4 +23,4 @@ def countDayOfTheWeek():
 ## uncomment calculateAbsolute() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-##countDayOfTheWeek()
+countDayOfTheWeek()
